@@ -67,11 +67,10 @@ func part2(v []string) {
 func main() {
 
 	content, err := ioutil.ReadFile("Day 2/input.txt")
-	strcontent := string(content)
-
 	if err != nil {
 		log.Fatal(err)
 	}
+	strcontent := string(content)
 
 	v := strings.Split(strcontent, "\n")
 	part1(v)
