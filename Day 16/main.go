@@ -27,7 +27,7 @@ func part2(v []string) {
 
 func main() {
 
-	content, err := ioutil.ReadFile("Day 9/input.txt")
+	content, err := ioutil.ReadFile("Day 16/input.txt")
 
 	if err != nil {
 		log.Fatal(err)
